@@ -1,0 +1,38 @@
+html, body, div {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  margin-left: 1rem;
+}
+
+nav {
+  height: 4.5rem;
+}
+
+nav > header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav > header > h1 {
+  justify-self: flex-start;
+}
+
+nav > header > #auth {
+  max-width: 90%;
+  text-overflow: clip;
+}
+
+main {
+  margin: 0 4px;
+}
+
+#map {
+  width: 100%;
+  height: calc(100vh - 4.5rem);
+  /* Any higher than this and the map starts padding in the top */
+  max-height: 42.5rem;
+}

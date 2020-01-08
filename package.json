@@ -1,0 +1,28 @@
+{
+  "name": "map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "auth.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.4.1",
+    "file-loader": "^5.0.2",
+    "firebase": "^7.6.1",
+    "firebaseauth": "^1.0.0",
+    "firebaseui": "^4.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "leaflet": "^1.6.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "webpack": "^4.41.5"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
